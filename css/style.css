@@ -81,7 +81,19 @@ input[type="search"] {
 .tekstas {
   text-align: center;
 }
-a { color: var(--balta);}
+a {     
+    color: var(--balta); 
+ }
+h4 {  
+    color: var(--gely);
+    }
+p { font: var(--fontas);
+       }
+.line {
+        background-color: rgb(55, 86, 112);
+        height: 8px;
+        width: 100%;
+      }
 /* ---------footer----------- */
 .footer-container {
   border: 1px solid black;
@@ -90,10 +102,11 @@ a { color: var(--balta);}
   grid-template-columns: repeat (1, 1fr );
   justify-content: space-between;
   background-color: var(--pilka);
+  justify-content: center;
 }
-.line {
-  background-color: rgb(55, 86, 112);
-  height: 8px;
-  width: 100%;
-}
-ul { list-style-type:none; }
+ul    { 
+            list-style-type: none; 
+        }
+.title { color:var(--gely); 
+        }
+
