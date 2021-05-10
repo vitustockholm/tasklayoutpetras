@@ -6,6 +6,12 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+:root {
+  --pilka: #727272;
+  --geltona: #decc00;
+  --balta: white;
+}
+
 /* body {
   font-family: Arial, Helvetica, sans-serif;
 } */
@@ -55,15 +61,32 @@ input[type="search"] {
   padding-right: 5px;
 }
 
-/* -------------------------------------------------- */
+/* ---------------------------- */
 .main-container {
   height: 767px;
   background-image: url(/svg/Hollowed-Boxes.svg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
+  text-align: center;
 }
 .centruotas {
-  text-align: center;
-  margin-top: 255px;
- 
+  /* text-align: center; */
+  margin-top: 120px;
+}
+/* ----------galery------ */
+.galery {
+  display: flex;
+}
+.galery123 {
+  display: flex;
+}
+.galery-item {
+  width: 130px;
+  height: 130px;
+}
+/* ---------footer----------- */
+.geltona-txt {
+  color: var(--yellow);
+  margin-bottom: 15px;
+}
