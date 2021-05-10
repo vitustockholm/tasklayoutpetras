@@ -1,7 +1,11 @@
-/* nekintami ir rootas spalvos ir fontas */
+/* nekintami, rootas, spalvos ir fontas */
 *                                          {
                     box-sizing: border-box;
                     text-decoration: none;
+                                            }
+ul, li                                     { 
+                    list-style-type: none; 
+                    display:table-cell;
                                             }
 :root                                       {
                     --pilka: #727272;
@@ -91,18 +95,15 @@ p                                           {
 /* ---------footer----------- */
 .footer-container                           {
                     align-items: center;
-                    margin: 0;
+                    background-color: var(--pilka);
                     display: flex;
                     justify-content: center;
-                    background-color: var(--pilka);
-                                            }
-                                           
-
-ul, li                              { 
-                    list-style-type: none; 
+                    margin: 0;
                     
-                                }
-.title                          { 
-                    color:var(--gely); 
-                                }
+                                            }                                        
+.title                                      { 
+                    color:var(--gely);
+                    font-weight: bold;
+                    padding: 10px; 
+                                            }
 
