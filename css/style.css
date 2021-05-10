@@ -102,10 +102,14 @@ p                                           {
                     align-items: baseline;
                 
                     
-                                            }                                        
+                                            }  
+                        /*-tekstasgeltonasparyskinintas-                                                    */
 .title                                      { 
                     color:var(--gely);
                     font-weight: bold;
+                    font-size: large;
                     padding: 7px; 
                                             }
-
+ ul > li                                    {
+text-align: center;
+                                            }
