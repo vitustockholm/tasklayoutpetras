@@ -2,22 +2,68 @@
 * {
   box-sizing: border-box;
   text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-body {
+/* body {
   font-family: Arial, Helvetica, sans-serif;
+} */
+/* --------------------- */
+.baltas {
+  color: white;
 }
-/* ---------------------------- */
 header {
   background: rgb(117, 116, 116);
   text-align: center;
+  padding: 15px;
 }
-/* .header-container {
+.header-container {
+  max-width: 767px;
+  margin: 0 auto;
 }
 
 .header-logo {
-} */
-
+  align-items: center;
+}
 form {
   padding: 10px 10px;
 }
+/* navbar with positioned input and search icon */
+
+.header-container {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="search"] {
+  padding: 10px;
+  width: 100%;
+}
+
+/* navbar with background icon */
+
+.inputo-bg-img input[type="search"] {
+  background-image: url(/svg/earth-grid.svg);
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 5% center;
+  border: 2px solid rgb(20, 20, 20);
+  border-radius: 7px;
+  padding-right: 5px;
+}
+
+/* -------------------------------------------------- */
+.main-container {
+  height: 767px;
+  background-image: url(/svg/Hollowed-Boxes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.centruotas {
+  text-align: center;
+  margin-top: 255px;
+ 
