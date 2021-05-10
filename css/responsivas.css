@@ -11,8 +11,12 @@
   }
   .galery123 {
     width: 100%;
-    display: block;
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 685px) {
+  .galery123 {
+    position: block;
   }
 }
 

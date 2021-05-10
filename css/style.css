@@ -45,7 +45,7 @@ form {
 }
 
 input[type="search"] {
-  padding: 10px;
+  padding: 10px 10px;
   width: 100%;
 }
 
@@ -55,7 +55,7 @@ input[type="search"] {
   background-image: url(/svg/earth-grid.svg);
   background-size: 25px;
   background-repeat: no-repeat;
-  background-position: 5% center;
+  background-position: 98% center;
   border: 2px solid rgb(20, 20, 20);
   border-radius: 7px;
   padding-right: 5px;
@@ -92,6 +92,12 @@ input[type="search"] {
   text-align: center;
 }
 /* ---------footer----------- */
+
+.lenta {
+  display: flex;
+  text-align: center;
+}
+
 .geltona-txt {
   color: var(--yellow);
   margin-bottom: 15px;
