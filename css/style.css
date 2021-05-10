@@ -49,7 +49,7 @@ input[type="search"] {
   width: 100%;
 }
 
-/* navbar with background icon */
+/* inputo svg back groundas */
 
 .inputo-bg-img input[type="search"] {
   background-image: url(/svg/earth-grid.svg);
@@ -72,18 +72,24 @@ input[type="search"] {
 }
 .centruotas {
   /* text-align: center; */
-  margin-top: 120px;
+  margin-top: 303px;
 }
 /* ----------galery------ */
-.galery {
-  display: flex;
-}
+
 .galery123 {
-  display: flex;
+  display: grid;
+  margin-top: -110px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  justify-items: center;
 }
 .galery-item {
-  width: 130px;
-  height: 130px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.tekstas {
+  text-align: center;
 }
 /* ---------footer----------- */
 .geltona-txt {
