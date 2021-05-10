@@ -88,10 +88,34 @@ h4                                          {
 p                                           { 
                     font: var(--fontas);
                                             }
+
+.galery12                                   {  
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-column-gap: 50px;
+                    justify-items: center;
+                    justify-content: space-between;
+                    margin-top: 0; 
+                     
+                                            }
+.galery12-item                              {  
+                    border-radius: 50%;
+                        height: 70px;
+                        width: 70px;
+                    
+                              }
+
+.galery12-title                             { 
+                    text-align: center;
+                    color: var(--gely);     }
+
+/* ---linija---- */
 .line                                       {
                     background-color: var(--gely);
                     height: 8px;
                     width: 100%;
+                    
                                             }
 /* ---------footer----------- */
 .footer-container                           {
@@ -100,8 +124,7 @@ p                                           {
                     display: flex;
                     justify-content: center;
                     align-items: baseline;
-                
-                    
+
                                             }  
                         /*-tekstasgeltonasparyskinintas-                                                    */
 .title                                      { 

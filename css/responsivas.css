@@ -10,6 +10,7 @@
   }
   .galery123 {
     margin-top: 0;
+    padding-top: 15px;
     width: 100%;
   }
   .footer-container {
@@ -19,5 +20,18 @@
     justify-content: space-between;
     justify-content: center;
     width: 100%;
+  }
+  .galery12 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 2vh;
+    justify-items: center;
+    margin-top: 0;
+  }
+  .galery12-item {
+    height: 280px;
+    width: 280px;
+    padding: 10px;
   }
 }
