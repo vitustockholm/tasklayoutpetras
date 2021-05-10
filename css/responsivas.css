@@ -5,12 +5,49 @@
     display: block;
     margin-bottom: 20px;
   }
-  .galery-container {
+  .galery-item img {
+    width: 130px;
+    height: 130px;
+  }
+  .galery123 {
     width: 100%;
     display: block;
+    margin-top: 0;
   }
 }
-/* .header-logo {
-    display: inline;
-    padding-left: 35px;
+
+@media screen and (min-width: 768px) {
+  /* .galery123 {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 0;
+    max-width: 767px; */
+}
+input {
+  width: 350px;
+}
+
+/* .galery123 {
+    position: absolute;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
   } */
+
+/* .galery123,
+  .galery-item {
+    display: flex;
+    justify-content: space-around;
+  } */
+
+.geltona-txt {
+  padding-bottom: 20px;
+}
+
+.footer {
+  max-width: 768px;
+}
