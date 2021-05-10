@@ -1,112 +1,104 @@
-/* pagrindines stiliu klases  */
-* {
-  box-sizing: border-box;
-  text-decoration: none;
-  
-}
-
-:root {
-  --pilka: #727272;
-  --gely: #decc00;
-  --balta: #f6f7f4;
-  --fontas: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-/* --------------------- */
-
-header {
-  background: rgb(117, 116, 116);
-  text-align: center;
-  padding: 15px;
-}
-/* ------------headerio dezes-breakdown- savybes-------- */
-.header-container {
-  max-width: 767px;
-  margin: 0 auto;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-
-.header-logo {
-  align-items: center;
-}
-form {
-  padding: 10px 10px;
-}
-/* navbar with positioned input and search icon */
-
-input[type="search"] {
-  padding: 10px 10px;
-  width: 100%;
-}
-
+/* nekintami ir rootas spalvos ir fontas */
+*                                          {
+                    box-sizing: border-box;
+                    text-decoration: none;
+                                            }
+:root                                       {
+                    --pilka: #727272;
+                    --gely: #decc00;
+                    --balta: #f6f7f4;
+                    --fontas: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                                            }
+/* ----------header----------- */
+header                                      {
+                    background: rgb(117, 116, 116);
+                    text-align: center;
+                    padding: 15px;
+                                            }
+.header-container                           {
+                    align-items: center;
+                    display: flex;
+                    height: 80px;
+                    justify-content: space-between;
+                    max-width: 767px;
+                    margin: 0 auto;
+                                            }
+.header-logo                               {
+                    align-items: center;
+                                            }
+form                                       {
+                    padding: 10px 10px;
+                                            }
+/*inputo paddingai del svg icon */
+input[type="search"]                       {
+                    padding: 10px 10px;
+                    width: 100%;
+                                            } 
 /* inputo svg backgroundas */
-.inputo-bg-img input[type="search"] {
-  background-image: url(/svg/earth-grid.svg);
-  background-size: 25px;
-  background-repeat: no-repeat;
-  background-position: 98% center;
-  border: 2px solid rgb(20, 20, 20);
-  border-radius: 7px;
-  padding-right: 5px;
-}
+.inputo-bg-img input[type="search"]        {
+                    background-image: url(/svg/earth-grid.svg);
+                    background-size: 25px;
+                    background-repeat: no-repeat;
+                    background-position: 98% center;
+                    border: 2px solid rgb(20, 20, 20);
+                    border-radius: 7px;
+                    padding-right: 5px;
+                                            }
 /* ------------Main-Dalis1-Dizaino-Pic---------- */
-.main-container {
-  background-image: url(/svg/Hollowed-Boxes.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 550px;
-  padding: 20px;
-  text-align: center;
+.main-container                             {
+                    background-image: url(/svg/Hollowed-Boxes.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 550px;
+                    text-align: center;
+                    padding: 20px;
 }
-.centruotas {
-  margin-top: 303px;
-}
+.centruotas                                 {
+                    margin-top: 303px;
+                                            }
 /* ----------Galerija-Gridas-Dalis2-Main------ */
-.galery123 {
-  display: grid;
-  margin-top: -110px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-  justify-items: center;
+.galery123                                 {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-column-gap: 10px;
+                    justify-items: center;
+                    margin-top: -110px;
 }
-.galery-item {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-}
-.tekstas {
-  text-align: center;
-}
-a {     
-    color: var(--balta); 
- }
-h4 {  
-    color: var(--gely);
-    }
-p { font: var(--fontas);
-       }
-.line {
-        background-color: rgb(55, 86, 112);
-        height: 8px;
-        width: 100%;
-      }
+.galery-item                               {
+                    border-radius: 50%;
+                    height: 200px;
+                    width: 200px;
+                                            }
+.tekstas                                    {
+                    text-align: center;
+                                            }
+a                                           {     
+                    color: var(--balta); 
+                                            }
+h4                                          {  
+                    color: var(--gely);
+                                            }
+p                                           { 
+                    font: var(--fontas);
+                                            }
+.line                                       {
+                    background-color: rgb(55, 86, 112);
+                    height: 8px;
+                    width: 100%;
+                                            }
 /* ---------footer----------- */
-.footer-container {
-  border: 1px solid black;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat (1, 1fr );
-  justify-content: space-between;
-  background-color: var(--pilka);
-  justify-content: center;
-}
-ul    { 
-            list-style-type: none; 
-        }
-.title { color:var(--gely); 
-        }
+.footer-container                           {
+                    align-items: center;
+                    margin: 0;
+                    display: flex;
+                    justify-content: center;
+                                            }
+
+ul                              { 
+                    list-style-type: none; 
+                                }
+.title                          { 
+                    color:var(--gely); 
+                                }
 
