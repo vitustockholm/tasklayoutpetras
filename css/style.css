@@ -51,7 +51,7 @@ input[type="search"] {
   background-image: url(/svg/Hollowed-Boxes.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 84vh;
+  height: 89vh;
   text-align: center;
   padding: 4vh;
 }
@@ -68,7 +68,7 @@ input[type="search"] {
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 10rem;
   justify-items: center;
-  margin-top: -110px;
+  margin-top: -20vh;
   max-width: 100%;
 }
 .galery-item {
