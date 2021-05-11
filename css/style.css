@@ -10,11 +10,6 @@
   --fontas: "Segoe UI", Roboto, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
 }
-ul,
-li {
-  list-style-type: none;
-  font: var(--fontas);
-}
 /* ----------header----------- */
 header {
   background: var(--pilka);
@@ -62,7 +57,7 @@ input[type="search"] {
 }
 /* ------uzrasas ant backgroundo------ */
 .centruotas {
-  margin-top: 303px;
+  margin-top: 31vh;
   color: var(--balta);
 }
 /* ----------Galerija-Gridas-Dalis2-Main------ */
@@ -87,15 +82,19 @@ a {
 }
 h4 {
   color: var(--gely);
+  /* margin: 2vh; */
 }
 p {
   font: var(--fontas);
   padding: 3px;
+  font-family: var(--fontas);
 }
 
 .galery12 {
   display: flex;
   margin-left: 7vh;
+  justify-content: space-evenly;
+  padding: 3vh;
 }
 
 .galery12-item {
@@ -106,6 +105,7 @@ p {
 .galerycardinfo > i,
 span {
   display: block;
+  margin: 1vh;
 }
 
 /* ---linija atskirti footeriui---- */
@@ -130,4 +130,7 @@ span {
 }
 ul > li {
   text-align: center;
+  list-style-type: none;
+  color: var(--balta);
+  font-family: var(--fontas);
 }
