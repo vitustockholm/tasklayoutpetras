@@ -95,12 +95,17 @@ p {
 
 .galery12 {
   display: flex;
+  margin-left: 7vh;
 }
 
 .galery12-item {
   border-radius: 50%;
   height: 20vh;
   width: 20vh;
+}
+.galerycardinfo > i,
+span {
+  display: block;
 }
 
 /* ---linija atskirti footeriui---- */
