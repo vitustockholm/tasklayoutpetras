@@ -45,10 +45,11 @@ input[type="search"] {
   background-image: url(/svg/earth-grid.svg);
   background-size: 25px;
   background-repeat: no-repeat;
-  background-position: 98% center;
+  background-position: 2% center;
   border: 2px solid rgb(20, 20, 20);
   border-radius: 7px;
   padding-right: 5px;
+  padding-left: 50px;
 }
 /* ------------Main-Dalis1-Dizaino-Pic---------- */
 .main-container {
@@ -59,11 +60,13 @@ input[type="search"] {
   text-align: center;
   padding: 20px;
 }
+/* ------uzrasas ant backgroundo------ */
 .centruotas {
   margin-top: 303px;
   color: var(--balta);
 }
 /* ----------Galerija-Gridas-Dalis2-Main------ */
+
 .galery123 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -87,56 +90,33 @@ h4 {
 }
 p {
   font: var(--fontas);
-  padding: 10px;
+  padding: 3px;
 }
 
-/* .galery12                                   {  
-                    display: grid;
-                    width: 100%;
-                    grid-template-columns: repeat(1, 1fr);
-                    grid-column-gap: 50px;
-                    justify-items: center;
-                    justify-content: space-between;
-                    margin-top: 0; 
-                     
-                                            } */
 .galery12 {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  justify-items: center;
-  justify-content: space-around;
-}
-.galery12 > span,
-i {
-  text-align: center;
+  display: flex;
 }
 
 .galery12-item {
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
+  height: 20vh;
+  width: 20vh;
 }
 
-.galery12-title {
-  display: block;
-  text-align: center;
-  color: var(--gely);
-}
-
-/* ---linija---- */
+/* ---linija atskirti footeriui---- */
 .line {
   background-color: var(--gely);
   height: 8px;
   width: 100%;
 }
-/* ---------footer----------- */
+/* ---------footer flex----------- */
 .footer-container {
   background-color: var(--pilka);
   display: flex;
   justify-content: center;
   align-items: baseline;
 }
-/*-tekstasgeltonasparyskinintas-                                                    */
+/*-footerio tekstasgeltonasparyskinintas-                                                    */
 .title {
   color: var(--gely);
   font-weight: bold;
