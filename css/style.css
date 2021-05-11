@@ -103,8 +103,8 @@ p {
   object-fit: cover;
   object-position: top;
   border-radius: 50%;
-  width: 180px;
-  height: 180px;
+  width: 25vh;
+  height: 25vh;
   max-width: 100%;
   margin: 5px;
 }
@@ -112,7 +112,6 @@ p {
 .galerycardinfo > i,
 span {
   display: block;
-  border: 2px solid black;
 }
 /* ---linija atskirti footeriui---- */
 .line {
