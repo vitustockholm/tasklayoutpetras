@@ -94,22 +94,26 @@ p {
 /* ----------------------------------------- */
 .galery12 {
   display: flex;
-  margin-left: 7vh;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 3vh;
+  gap: 1vh;
 }
 
 .galery12-item {
+  object-fit: cover;
+  object-position: top;
   border-radius: 50%;
-  height: 20vh;
-  width: 20vh;
+  width: 180px;
+  height: 180px;
+  max-width: 100%;
+  margin: 5px;
 }
+
 .galerycardinfo > i,
 span {
   display: block;
-  margin: 1vh;
+  border: 2px solid black;
 }
-
 /* ---linija atskirti footeriui---- */
 .line {
   background-color: var(--gely);
