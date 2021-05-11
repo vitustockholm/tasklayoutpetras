@@ -94,7 +94,6 @@ p {
 /* ----------------------------------------- */
 .galery12 {
   display: flex;
-
   justify-content: space-evenly;
   padding: 3vh;
   gap: 1vh;
@@ -109,10 +108,9 @@ p {
   max-width: 100%;
   margin: 5px;
 }
-
 .galerycardinfo > i,
 span {
-  display: block;
+  display: flex;
 }
 /* ---linija atskirti footeriui---- */
 .line {
