@@ -2,15 +2,14 @@
 @media screen and (max-width: 768px) {
   .header-container {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
   }
   .galery-item img {
-    height: 130px;
-    width: 130px;
+    height: 20vh;
+    width: 20vh;
   }
   .galery123 {
     margin-top: 0;
-    padding-top: 15px;
     width: 100%;
   }
   .footer-container {
@@ -25,16 +24,11 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 2vh;
+    grid-column-gap: 1vh;
     justify-items: center;
   }
   .galery12-item {
-    height: 280px;
-    width: 280px;
-    /* padding: 10px; */
-  }
-  .galerycardinfo > i,
-  span {
-    display: block;
+    height: 45vh;
+    width: 45vh;
   }
 }
