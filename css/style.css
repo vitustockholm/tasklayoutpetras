@@ -57,8 +57,9 @@ input[type="search"] {
 }
 /* ------uzrasas ant backgroundo------ */
 .centruotas {
-  margin-top: 31vh;
+  margin-top: 35vh;
   color: var(--balta);
+  font-family: var(--fontas);
 }
 /* ----------Galerija-Gridas-Dalis2-Main------ */
 
@@ -74,6 +75,7 @@ input[type="search"] {
   height: 200px;
   width: 200px;
 }
+/* ---small rem root things makes great jobs--- */
 .tekstas {
   text-align: center;
 }
@@ -89,7 +91,7 @@ p {
   padding: 3px;
   font-family: var(--fontas);
 }
-
+/* ----------------------------------------- */
 .galery12 {
   display: flex;
   margin-left: 7vh;
