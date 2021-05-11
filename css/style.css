@@ -94,7 +94,8 @@ p {
 /* ----------------------------------------- */
 .galery12 {
   display: flex;
-  justify-content: space-around;
+
+  justify-content: space-evenly;
   padding: 3vh;
   gap: 1vh;
 }
