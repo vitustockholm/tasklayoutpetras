@@ -14,12 +14,12 @@
 header {
   background: var(--pilka);
   text-align: center;
-  padding: 15px;
+  padding: 1rem;
 }
 .header-container {
   align-items: center;
   display: flex;
-  height: 80px;
+  height: 5rem;
   justify-content: space-between;
   max-width: 767px;
   margin: 0 auto;
@@ -28,23 +28,23 @@ header {
   align-items: center;
 }
 form {
-  padding: 10px 10px;
+  padding: 0.6rem 0.6rem;
 }
 /*inputo paddingai del svg icon */
 input[type="search"] {
-  padding: 10px 10px;
+  padding: 0.6rem 0.6rem;
   width: 100%;
 }
 /* inputo svg backgroundas */
 .inputo-bg-img input[type="search"] {
   background-image: url(/svg/earth-grid.svg);
-  background-size: 25px;
+  background-size: 2rem;
   background-repeat: no-repeat;
   background-position: 2% center;
   border: 2px solid rgb(20, 20, 20);
-  border-radius: 7px;
-  padding-right: 5px;
-  padding-left: 50px;
+  border-radius: 0.5rem;
+  padding-right: 0.6rem;
+  padding-left: 5rem;
 }
 /* ------------Main-Dalis1-Dizaino-Pic---------- */
 .main-container {
@@ -66,15 +66,15 @@ input[type="search"] {
 .galery123 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 10rem;
   justify-items: center;
   margin-top: -110px;
   max-width: 100%;
 }
 .galery-item {
   border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  height: 35vh;
+  width: 35vh;
 }
 /* ---small rem root things makes great jobs--- */
 .tekstas {
@@ -89,10 +89,10 @@ h4 {
 }
 p {
   font: var(--fontas);
-  padding: 3px;
+  padding: 0.4rem;
   font-family: var(--fontas);
 }
-/* ----------------------------------------- */
+/* ----------------------------------- */
 .galery12 {
   display: flex;
   justify-content: space-around;
@@ -101,7 +101,10 @@ p {
 }
 
 .galery12 > *:nth-child(2) {
-  flex: 1 1 5%;
+  flex: 1 1 15%;
+}
+.galery12 > *:nth-child(4) {
+  flex: auto;
 }
 .galery12-item {
   border-radius: 50%;
