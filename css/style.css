@@ -51,9 +51,9 @@ input[type="search"] {
   background-image: url(/svg/Hollowed-Boxes.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 550px;
+  height: 84vh;
   text-align: center;
-  padding: 20px;
+  padding: 4vh;
 }
 /* ------uzrasas ant backgroundo------ */
 .centruotas {
@@ -121,7 +121,7 @@ span {
 /* ---linija atskirti footeriui---- */
 .line {
   background-color: var(--gely);
-  height: 8px;
+  height: 1.5vh;
   width: 100%;
 }
 /* ---------footer flex----------- */
@@ -136,7 +136,6 @@ span {
   color: var(--gely);
   font-weight: bold;
   font-size: large;
-  padding: 7px;
 }
 ul > li {
   text-align: center;
